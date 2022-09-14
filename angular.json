@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-docker-demo-app"
+    }
+  },
+  "defaultProject": "angular-docker-demo-app",
+  "cli": {
+    "analytics": "549614a5-580f-4622-a61c-1155c7975e46"
+  }
 }
