@@ -11,7 +11,7 @@ RUN npm install
 # add app
 COPY . /app
 # start app
-CMD ng serve
+CMD ng serve --host 0.0.0.0
 
 #--------------Production Environment------------>
 # FROM  node:14.15.0-alpine as builder
